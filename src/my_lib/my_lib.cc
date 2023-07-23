@@ -10,7 +10,6 @@ int print_hello_world()
     std::cout << NLOHMANN_JSON_VERSION_MAJOR << '\n';
 
     // Adress Sanitizer should see this :)
-    int *x = new int[42];
 
     return 1;
 }
