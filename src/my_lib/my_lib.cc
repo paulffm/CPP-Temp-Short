@@ -1,13 +1,9 @@
-#include <iostream>
-
-#include <nlohmann/json.hpp>
-
 #include "my_lib.h"
+#include <iostream>
 
 int print_hello_world()
 {
     std::cout << "Cout: Hello World" << '\n';
-    std::cout << NLOHMANN_JSON_VERSION_MAJOR << '\n';
 
     // Adress Sanitizer should see this :)
 
